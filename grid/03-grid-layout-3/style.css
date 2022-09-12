@@ -21,14 +21,16 @@
 .header {
   background-color: #393f4d;
   display: grid;
-  grid-row: 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
+  grid-template-columns: 2fr 1fr;
 }
 
 .logo {
 }
 
 .menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu ul {
@@ -60,6 +62,7 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  text-align: center;
 }
 
 .nav {
@@ -94,6 +97,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {
@@ -109,6 +113,7 @@
 
 .footer {
   background-color: #393f4d;
+  
 }
 
 .footer p {
